@@ -1,0 +1,31 @@
+.Header {
+    height: 80px;
+    background: yellow;
+    overflow: hidden;
+    width: 100%;
+    padding: 24px;
+}
+
+.Header .details {
+    float: left;
+    width: 50%;
+    height: 80px;
+}
+
+.Header h1, .Header h2 {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.Header h2 {
+    font-size: 0.6rem;
+    letter-spacing: 0.025rem;
+    text-transform: uppercase;
+}
+
+.Header .note p {
+    float: right; 
+    width: 40%;
+    font-size: 0.6rem;
+}
